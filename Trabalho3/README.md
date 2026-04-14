@@ -1,1 +1,0 @@
-# trabalho-2-com-servidor-local-e-banco-de-dados-em-python

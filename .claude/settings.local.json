@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mv \"Trabalho3/Trabalho3 site de empresa/\"/* .)",
+      "Bash(cp -r \"Trabalho3/Trabalho3 site de empresa/\"/* .)",
+      "Bash(python:*)"
+    ]
+  }
+}
