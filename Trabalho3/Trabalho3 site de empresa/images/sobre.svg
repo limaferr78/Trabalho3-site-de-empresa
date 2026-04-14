@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="360" viewBox="0 0 480 360">
+  <title>Sobre a empresa</title>
+  <rect width="480" height="360" fill="#f0f3f8" rx="12"/>
+  <ellipse cx="240" cy="300" rx="180" ry="24" fill="#dde4ee" opacity="0.6"/>
+  <rect x="120" y="140" width="240" height="120" rx="10" fill="#ffffff" stroke="#1e4d8c" stroke-width="2" opacity="0.9"/>
+  <circle cx="180" cy="200" r="28" fill="#1e4d8c" opacity="0.85"/>
+  <circle cx="240" cy="190" r="32" fill="#163a6b"/>
+  <circle cx="300" cy="200" r="28" fill="#1e4d8c" opacity="0.85"/>
+  <path d="M152 248 Q240 220 328 248" stroke="#5c6370" stroke-width="2" fill="none" opacity="0.5"/>
+</svg>

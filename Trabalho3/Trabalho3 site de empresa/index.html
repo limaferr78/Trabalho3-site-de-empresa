@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Async Tecnologia: integração de sistemas, automação de processos e APIs para fintechs, e-commerce e startups B2B.">
+  <title>Async Tecnologia</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="logo" href="#inicio">
+        <img class="logo__img" src="./images/logo.svg" alt="Async Tecnologia" width="160" height="40" decoding="async">
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+      <nav id="menu-principal" class="nav" aria-label="Principal">
+        <ul class="nav__list">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li id="nav-login-item"><a class="btn btn--primary btn--nav" href="login.html">Entrar</a></li>
+          <li id="nav-usuario-item" style="display:none">
+            <span id="nav-usuario-nome" style="font-size:14px;font-weight:500;color:var(--text-secondary);padding:0.45rem 0.85rem;"></span>
+            <button id="nav-sair-btn" style="font-size:13px;font-weight:500;color:var(--text-tertiary);background:none;border:none;cursor:pointer;padding:0.45rem 0.5rem;font-family:var(--font-sans);">Sair</button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <h1 class="hero__title">Soluções que impulsionam o seu negócio</h1>
+          <p class="hero__subtitle">Desenvolvimento de software brasileiro focado em integração e automação. Conectamos sistemas, APIs e operações para empresas que precisam crescer sem aumentar a complexidade.</p>
+          <p class="hero__tagline">Atuamos com fintechs, e-commerce e startups B2B.</p>
+          <a class="btn btn--primary" href="#contato">Faça parte da Inovação</a>
+        </div>
+        <figure class="hero__figure">
+          <img class="hero__img" src="./images/async_hero.svg" alt="" width="680" height="420" decoding="async">
+        </figure>
+      </div>
+    </section>
+
+    <section id="sobre" class="section">
+      <div class="container sobre__inner">
+        <div class="sobre__copy">
+          <h2 class="section__title">Sobre nós</h2>
+          <p class="section__text">A Async Tecnologia é uma empresa brasileira de software especializada em integração de sistemas e automação de processos. Desenvolvemos soluções que conectam plataformas, APIs e ferramentas internas para que as operações da sua empresa funcionem de forma contínua e eficiente.</p>
+          <p class="section__text">Trabalhamos com empresas que precisam escalar sem aumentar a complexidade operacional. Nossa abordagem técnica é baseada em arquiteturas orientadas a eventos, o que garante sistemas resilientes, desacoplados e preparados para crescer.</p>
+          <p class="section__text">Nosso compromisso é entregar integrações confiáveis, no prazo e com suporte próximo, do diagnóstico à implementação.</p>
+          <p class="section__text section__text--emphasis">Async Tecnologia: integrações que funcionam.</p>
+        </div>
+        <figure class="sobre__figure">
+          <img class="sobre__img" src="./images/sobre.svg" alt="" width="480" height="360" decoding="async">
+        </figure>
+      </div>
+    </section>
+
+    <section id="servicos" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title">Serviços</h2>
+        <p class="section__intro">Integração, automação e APIs para sua operação evoluir com segurança e previsibilidade.</p>
+        <ul class="cards">
+          <li class="card">
+            <img class="card__img" src="./images/servico-integracao.svg" alt="" width="64" height="64" decoding="async">
+            <h3 class="card__title">Integração de sistemas</h3>
+            <p class="card__text">Conectamos ERPs, CRMs, gateways de pagamento e bases legadas com pipelines estáveis e monitoráveis.</p>
+          </li>
+          <li class="card">
+            <img class="card__img" src="./images/servico-automacao.svg" alt="" width="64" height="64" decoding="async">
+            <h3 class="card__title">Automação de processos</h3>
+            <p class="card__text">Eliminamos tarefas repetitivas com fluxos orientados a eventos e integrações em tempo quase real.</p>
+          </li>
+          <li class="card">
+            <img class="card__img" src="./images/servico-apis.svg" alt="" width="64" height="64" decoding="async">
+            <h3 class="card__title">APIs e microsserviços</h3>
+            <p class="card__text">Desenhamos contratos de API, versionamento e camadas de integração prontas para escalar com o seu produto.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contato" class="section">
+      <div class="container">
+        <h2 class="section__title">Contato</h2>
+        <p class="section__text">Entre em contato com a nossa equipe e descubra como podemos conectar e otimizar os sistemas da sua empresa.</p>
+        <dl class="contact-list">
+          <div class="contact-list__row">
+            <dt>E-mail</dt>
+            <dd><a href="mailto:contato@asynctecnologia.com.br">contato@asynctecnologia.com.br</a></dd>
+          </div>
+          <div class="contact-list__row">
+            <dt>Telefone</dt>
+            <dd><a href="tel:+5522999999999">(22) 99999-9999</a></dd>
+          </div>
+          <div class="contact-list__row">
+            <dt>Endereço</dt>
+            <dd>Estrada Perynas, s/n - Perynas, Cabo Frio - RJ</dd>
+          </div>
+          <div class="contact-list__row">
+            <dt>Horário</dt>
+            <dd>Segunda a sexta, das 9h às 18h</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">&copy; <span id="ano"></span> Async Tecnologia. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

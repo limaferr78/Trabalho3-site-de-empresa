@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="320" viewBox="0 0 560 320">
+  <title>Integracao de sistemas</title>
+  <defs>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8eef6"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <rect width="560" height="320" fill="url(#heroGrad)" rx="12"/>
+  <rect x="48" y="120" width="100" height="64" rx="8" fill="#1e4d8c" opacity="0.9"/>
+  <rect x="230" y="100" width="100" height="104" rx="8" fill="#1e4d8c" opacity="0.75"/>
+  <rect x="412" y="120" width="100" height="64" rx="8" fill="#1e4d8c" opacity="0.9"/>
+  <path d="M148 152 H210 M350 152 H412" stroke="#163a6b" stroke-width="3" fill="none" stroke-dasharray="8 6"/>
+  <circle cx="280" cy="152" r="14" fill="#ffffff" stroke="#1e4d8c" stroke-width="3"/>
+  <path d="M274 152 L278 156 L288 146" stroke="#1e4d8c" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="148" cy="152" r="6" fill="#5c6370"/>
+  <circle cx="412" cy="152" r="6" fill="#5c6370"/>
+</svg>
