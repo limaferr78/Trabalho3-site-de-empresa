@@ -2,6 +2,8 @@
 
 Sistema de login e cadastro com servidor HTTP local em Python 3.
 
+Trabalho simples para a faculdade
+
 ## Requisitos
 
 - Python 3.6 ou superior
